@@ -1,0 +1,29 @@
+.navbar {
+    background-color: lightblue;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.elem {
+    border: 1px;
+    background-color: gray;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+.elem section {
+    padding: 5px 20px;
+}
+
+@media (max-width: 768px) {
+    #navbar-menu {
+        background-color: red;
+    }
+    #navbar-menu .navbar-nav>li>a {
+        color: white;
+    }
+}
